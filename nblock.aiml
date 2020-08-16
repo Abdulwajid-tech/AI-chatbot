@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+	    <pattern>^ ROOMS ^ NBLOCK ^</pattern>
+	    <template>
+	       N-Block have 20 Rooms in it.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ * ROOM NO ^ NBLOCK ^</pattern>
+	    <template>
+	       <star index="1"/> room no in N-Block is N-<star index="1"/>
+	    </template>
+    </category>
+    <category>
+	    <pattern>ARCHITECTURE ^ NBLOCK</pattern>
+	    <template>
+	       The building look like a circle from top.
+	    </template>
+    </category>
+    
+</aiml>

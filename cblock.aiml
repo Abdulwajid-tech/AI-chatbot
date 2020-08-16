@@ -1,0 +1,20 @@
+<aiml version="2.0">
+    <category>
+	    <pattern>^ ROOMS ^ CBLOCK ^</pattern>
+	    <template>
+	       C-Block have 20 Rooms in it.
+	    </template>
+    </category>
+     <category>
+	    <pattern>^ * ROOM NO ^ NBLOCK ^</pattern>
+	    <template>
+	       <star index="1"/> room no in C-Block is C-<star index="1"/>
+	    </template>
+    </category>
+     <category>
+	    <pattern>^ ASSISTANT HOD ^</pattern>
+	    <template>
+	       Sir Usama Bajwa is the Assistant HOD of Comsats University Lahore Campus.
+	    </template>
+    </category>
+</aiml>

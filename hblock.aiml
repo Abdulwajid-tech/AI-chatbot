@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>^ ROOMS ^ HBLOCK ^</pattern>
+	    <template>
+	       H-Block have 10 Rooms in it.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ FACULTY ^ HBLOCK ^</pattern>
+	    <template>
+	       The faculty who have done master sit in H-BLOCK
+	    </template>
+    </category>
+</aiml>

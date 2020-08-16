@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+	 <pattern>^ ROOMS ^ PHD BLOCK ^</pattern>
+	    <template>
+	       PHD-Block have 30 to 35 Rooms in it.
+	    </template>
+	    </category>
+	<category>
+	    <pattern>^ FACULTY ^ PHDBLOCK ^</pattern>
+	    <template>
+	       The faculty who have done PHD sit in PHD-BLOCK.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ TEACHER ^ PHD BLOCK</pattern>
+	    <template>
+	       <random>
+	           <li>Sir Wajahat is the best teacher leading in the Aritifical intelligent domain.</li>
+	           <li>Sir Adeel Rao is the best teacher for teaching machine learning.</li>
+	           <li>Sir Hamid Turab is the best teacher for teaching Data base and Data science.</li>
+	       </random>
+	    </template>
+    </category>
+</aiml>

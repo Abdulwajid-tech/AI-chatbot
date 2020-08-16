@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>I am *</pattern>
+	    <template>
+	        Hi! <set name = "username" > <star index = "1"/></set>
+	    </template>
+    </category>
+    <category>
+	    <pattern>My name is *</pattern>
+	    <template>
+	        <srai>I am <star index = "1"/></srai>
+	    </template>
+    </category>
+    <category>
+	    <pattern>Good Bye</pattern>
+	    <template>
+	        It's great to talk with you <get name = "username"/>
+	    </template>
+    </category>
+    <category>
+	    <pattern>I WANT TO MEET *</pattern>
+	    <template>
+	        Please visit the H block or faculty block to meet <star index = "1"></star>
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ * OFFICE ^</pattern>
+	    <template>
+	        <srai>I WNAT TO MEET *</srai>
+	    </template>
+    </category>
+    <category> 
+        <pattern>SHUT UP</pattern>
+        <template>
+	    <think>
+		    <set name="topic">SHUTUP</set>
+	    </think>
+	    <random>
+		    <li>Ok, I'll will not respond now.</li>
+		    <li>If you want this then i will not talk to you now.</li>
+		    <li>Why you are talking with me if you dont want me to talk</li>
+	    </random>
+        </template>
+    </category>
+    <topic name="SHUTUP"> 
+        <category> 
+        <pattern>_</pattern>
+        <template>
+	        <think>
+		        <set name="input"><star/></set>
+	        </think>
+	    <condition name="input">
+		    <li value="I AM SORRY">Ok, I'll start talking again.<set name="topic"></set></li>
+		    <li value="SORRY">Ok, I'll start talking again.<set name="topic"></set></li>
+		    <li value="IM SORRY">Ok, I'll start talking again.<set name="topic"></set></li>
+		    <li>
+		        <random>
+			        <li>Now What!</li>
+			        <li>....</li>
+			        <li>* No sound from you *</li>
+			        <li>You told me to shut up remember?</li>
+		        </random>
+		    </li>
+	    </condition>
+        </template>
+        </category>
+    </topic>
+</aiml>

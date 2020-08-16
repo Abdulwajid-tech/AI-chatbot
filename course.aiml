@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>^ LAST DATE ^ DROP ^</pattern>
+	    <template>
+	        Last date to drop a subject is 1-3-2020
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ LAST DATE ^ ADD ^</pattern>
+	    <template>
+	        Last date to add a subject was 22-2-2020
+	    </template>
+    </category>
+    <category>
+	    <pattern>LIST OF ^ BSCS ^</pattern>
+	    <template>
+	        <condition name = "username" value = "bajwa" >Concern the dco of C block</condition>
+	        <condition name = "username" value = "" >Sorry you are not the admins</condition>
+	    </template>
+    </category>
+</aiml>

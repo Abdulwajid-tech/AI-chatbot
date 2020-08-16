@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>* is the brother of *</pattern>
+	    <template>
+	        We store this information.
+	    </template>
+    </category>
+    <category>
+	    <pattern>* HAS FUR</pattern>
+	    <template>
+	        We store this information.
+	    </template>
+    </category>
+    <category>
+	    <pattern>* buy a *</pattern>
+	    <template>
+
+	    </template>
+    </category>
+</aiml>

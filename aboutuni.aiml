@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>^TOTAL FACULTY ^ COMSATS ^</pattern>
+	    <template>
+	        Total faculty at Comsats Lahore is 529.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ GRADUATE PROGRAMS ^</pattern>
+	    <template>
+	       Total no of graduate programs offered in Comsats are 20.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ total area ^</pattern>
+	    <template>
+	       Total area of Comsats Lahore is 185 Acres.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ FACULTY BLOCKS ^</pattern>
+	    <template>
+	    There are two faculty blocks in Comsats.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ BLOCKS ^</pattern>
+	    <template>
+	       There are 13 Academic Blocks in Comsats.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ CAMPUSES ^</pattern>
+	    <template>
+	       Comsats university have 6 satellite campuses.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ RESEARCH CENTERS ^</pattern>
+	    <template>
+	       Comsats university have total 8 research centers.
+	    </template>
+    </category>
+</aiml>

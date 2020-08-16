@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>^ MANY COURTS ^</pattern>
+	    <template>
+	       Comsats University Lahore have total 5 courts right now.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^MANY VOLYBALL COURTS^</pattern>
+	    <template>
+	       Comsats University Lahore have 2 volyball courts.
+	    </template>
+    </category>
+    <category>
+	    <pattern>^ MANY COURTS ^</pattern>
+	    <template>
+	       Comsats University Lahore have total 5 courts right now.
+	    </template>
+    </category>
+    <category>
+      <pattern>Does ^ have cricket team</pattern>
+      <template>Yes Comsats has its offical criciket team</template>  
+   </category>
+   <category>
+      <pattern>* name ^ team</pattern>
+      <that>Yes Comsats has its offical criciket team</that>
+      <template>Comasats Lahore Shine is the name of the cricket team.</template>
+   </category>
+   
+   <category>
+      <pattern>^ which departement ^.</pattern>
+      <that>Yes Comsats has its offical criciket team</that>
+      <template>They gather talent from different departments.</template>
+   </category> 
+</aiml>
